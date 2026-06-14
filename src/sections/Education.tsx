@@ -1,7 +1,6 @@
 import { useRef } from 'react'
 import { motion, useInView } from 'framer-motion'
-import CountUp from 'react-countup'
-import { education, certifications, stats } from '@/data/portfolioData'
+import { education, certifications } from '@/data/portfolioData'
 
 export default function Education() {
   const ref = useRef(null)
@@ -135,42 +134,6 @@ export default function Education() {
             ))}
           </motion.div>
         </div>
-
-        {/* Why Hire Me - Animated Counters */}
-        <motion.div
-          initial={{ opacity: 0, y: 40 }}
-          animate={isInView ? { opacity: 1, y: 0 } : {}}
-          transition={{ delay: 0.7 }}
-          className="mt-20"
-        >
-          <h3 className="text-center text-2xl font-display font-bold text-white mb-2">
-            Why Hire Me?
-          </h3>
-          <p className="text-center text-text-secondary mb-10 max-w-xl mx-auto">
-            Quantified achievements and measurable impact across every QA project.
-          </p>
-
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            {stats.map((stat, i) => (
-              <motion.div
-                key={stat.label}
-                initial={{ opacity: 0, scale: 0.8 }}
-                animate={isInView ? { opacity: 1, scale: 1 } : {}}
-                transition={{ delay: 0.8 + i * 0.1, type: 'spring' }}
-                whileHover={{ y: -6, scale: 1.03 }}
-                className="glass-card p-6 text-center card-shine"
-              >
-                <div className="text-4xl font-display font-black gradient-text">
-                  {isInView ? (
-                    <CountUp end={stat.value} duration={2} delay={0.5 + i * 0.1} />
-                  ) : '0'}
-                  {stat.suffix}
-                </div>
-                <div className="text-text-secondary text-xs mt-2 leading-tight">{stat.label}</div>
-              </motion.div>
-            ))}
-          </div>
-        </motion.div>
       </div>
     </section>
   )
