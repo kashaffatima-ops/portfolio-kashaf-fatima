@@ -25,7 +25,7 @@ const highlights = [
   {
     icon: <FiAward size={24} />,
     title: 'Academic Excellence',
-    desc: "Dean's List honoree and Silver Medal recipient with a CGPA of 3.37/4.00 at FAST NUCES.",
+    desc: "Dean's List honoree and Silver Medal recipient for outstanding academic performance at FAST NUCES.",
     color: '#6366F1',
   },
 ]
@@ -101,7 +101,7 @@ export default function About() {
                   'Islamabad, Pakistan',
                   'FAST NUCES',
                   'AWS Certified',
-                  '3.37 CGPA',
+                  'Silver Medalist',
                 ].map((tag) => (
                   <span key={tag} className="tech-badge text-xs">{tag}</span>
                 ))}
@@ -112,10 +112,10 @@ export default function About() {
             <motion.div
               animate={{ y: [0, -8, 0] }}
               transition={{ duration: 4, repeat: Infinity, ease: 'easeInOut' }}
-              className="absolute -bottom-6 -right-6 glass-card p-4 border border-primary-400/20"
+              className="absolute -bottom-6 -right-6 glass-card p-4 border border-primary-400/20 text-center"
             >
-              <div className="text-2xl font-bold gradient-text">3.37</div>
-              <div className="text-xs text-text-secondary">CGPA / 4.00</div>
+              <div className="text-lg font-bold gradient-text">Silver Medalist</div>
+              <div className="text-xs text-text-secondary">Academic Honor</div>
             </motion.div>
 
             <motion.div

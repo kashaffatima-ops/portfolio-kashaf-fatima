@@ -57,14 +57,14 @@ export default function Education() {
 
               {/* Stats */}
               <div className="grid grid-cols-2 gap-4 mb-6">
-                <div className="p-4 rounded-xl bg-primary-400/10 border border-primary-400/20 text-center">
-                  <div className="text-3xl font-display font-bold gradient-text">
-                    {isInView ? <CountUp end={3.37} decimals={2} duration={2} /> : '0.00'}
+                <div className="p-4 rounded-xl bg-primary-400/10 border border-primary-400/20 text-center flex flex-col justify-center items-center">
+                  <div className="text-lg font-display font-bold gradient-text leading-tight">
+                    Silver Medalist
                   </div>
-                  <div className="text-xs text-text-secondary mt-1">CGPA / 4.00</div>
+                  <div className="text-xs text-text-secondary mt-1">Academic Honor</div>
                 </div>
-                <div className="p-4 rounded-xl bg-accent-400/10 border border-accent-400/20 text-center">
-                  <div className="text-3xl font-display font-bold text-accent-400">
+                <div className="p-4 rounded-xl bg-accent-400/10 border border-accent-400/20 text-center flex flex-col justify-center items-center">
+                  <div className="text-2xl font-display font-bold text-accent-400">
                     2022–26
                   </div>
                   <div className="text-xs text-text-secondary mt-1">Duration</div>

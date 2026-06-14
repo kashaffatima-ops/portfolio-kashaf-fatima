@@ -9,15 +9,15 @@ export const personalInfo = {
   github: 'https://github.com/kashaffatima-ops',
   roles: [
     'Software Quality Assurance Engineer',
-    'Manual Testing Expert',
-    'QA Automation Enthusiast',
+    'Manual Testing Specialist',
+    'QA Automation Engineer',
     'Quality Engineering Professional',
   ],
-  summary: `Passionate Software Engineer and Software Quality Assurance Engineer with hands-on experience in Manual Testing, Test Automation, Defect Analysis, Jira Management, Cypress Automation, JUnit Testing, and Software Quality Engineering.
+  summary: `Detail-oriented Software Quality Assurance Engineer with hands-on experience in manual testing, test automation, defect lifecycle management, and software quality engineering. Proficient in Cypress, JUnit, Postman, and Jira to design and execute robust verification plans.
 
-Strong foundation in software development and testing, with experience in debugging, validation, quality assessment, and continuous improvement practices.
+Equipped with a solid foundation in software engineering, test case design, boundary value analysis, static code analysis, and continuous integration workflows.
 
-Dedicated to delivering reliable, user-focused software through structured testing methodologies and analytical problem solving.`,
+Committed to delivering reliable, user-centric software solutions through structured quality assurance methodologies and meticulous attention to detail.`,
 }
 
 export const stats = [
@@ -36,13 +36,12 @@ export const experience = [
     type: 'Academic',
     color: '#3B82F6',
     responsibilities: [
-      'Evaluated assignments, quizzes, and semester projects',
-      'Ensured quality and correctness of submissions',
-      'Guided students in debugging and testing',
-      'Assisted in Operating Systems, Computer Networks, and Algorithms',
-      'Reproduced and resolved technical issues',
+      'Evaluated programming assignments, automated test suites, and projects for 100+ CS students, verifying code standards and correctness.',
+      'Conducted constructive code reviews and guided students on debugging techniques, logical error troubleshooting, and software quality concepts.',
+      'Assisted in lab instruction and grading for Operating Systems, Computer Networks, and Design & Analysis of Algorithms.',
+      'Reproduced, documented, and helped resolve environment setup and technical compilation issues in student workstations.',
     ],
-    skills: ['Teaching', 'Debugging', 'Code Review', 'Quality Assessment'],
+    skills: ['Code Review', 'Debugging', 'Operating Systems', 'Technical Mentorship', 'Quality Standards'],
   },
   {
     id: 2,
@@ -52,13 +51,12 @@ export const experience = [
     type: 'Internship',
     color: '#60A5FA',
     responsibilities: [
-      'Worked on React Native applications',
-      'Contributed to RAG-based AI applications',
-      'Participated in Agile workflows',
-      'Applied Git collaboration practices',
-      'Learned CI/CD concepts and testing workflows',
+      'Contributed to cross-platform React Native and web applications with a focus on UI verification, stability, and UX alignment.',
+      'Collaborated on RAG-based AI system integration, validating response accuracy and testing API endpoints under various edge cases.',
+      'Participated actively in Agile/Scrum processes, including daily standups, task prioritization, and review sessions.',
+      'Practiced standard Git branch management, code collaboration, and learned automated testing configurations within CI/CD pipelines.',
     ],
-    skills: ['React Native', 'AI/ML', 'Agile', 'CI/CD', 'Git'],
+    skills: ['React Native', 'API Testing', 'Agile/Scrum', 'CI/CD Concepts', 'Git'],
   },
   {
     id: 3,
@@ -68,12 +66,11 @@ export const experience = [
     type: 'Internship',
     color: '#2563EB',
     responsibilities: [
-      'Worked on a first-person shooter game in Unity',
-      'Performed debugging and feature validation',
-      'Tested gameplay functionality',
-      'Improved stability and usability',
+      'Contributed to the development and gameplay logic of a first-person shooter game built with Unity and C#.',
+      'Designed and executed functional manual test passes to identify gameplay bugs, collision issues, and logical discrepancies.',
+      'Partnered with technical designers to optimize scene rendering and troubleshoot performance bottlenecks to improve frame rates.',
     ],
-    skills: ['Unity', 'C#', 'Game Testing', 'Debugging'],
+    skills: ['Unity', 'C#', 'Game Testing', 'Manual QA', 'Performance Optimization'],
   },
   {
     id: 4,
@@ -83,13 +80,11 @@ export const experience = [
     type: 'Research',
     color: '#3B82F6',
     responsibilities: [
-      'Developed a Flutter and Firebase society management system',
-      'Implemented authentication and CRUD functionality',
-      'Conducted manual testing',
-      'Performed UI validation',
-      'Verified feature workflows',
+      'Developed user workflows and database schemas for a Flutter & Firebase-based society management platform.',
+      'Conducted system testing, interface verification, and validation of real-time database queries to ensure smooth synchronization.',
+      'Drafted clear, reproducible bug reports and collaborated on resolving UI anomalies and edge cases.',
     ],
-    skills: ['Flutter', 'Firebase', 'Manual Testing', 'UI Testing'],
+    skills: ['Flutter', 'Firebase', 'System Testing', 'UI/UX Verification', 'Bug Tracking'],
   },
 ]
 
@@ -323,6 +318,7 @@ export const certifications = [
 export const navLinks = [
   { label: 'Home', href: '#home' },
   { label: 'About', href: '#about' },
+  { label: 'Experience', href: '#experience' },
   { label: 'Skills', href: '#skills' },
   { label: 'Projects', href: '#projects' },
   { label: 'Education', href: '#education' },
