@@ -32,7 +32,7 @@ export const experience = [
     id: 1,
     title: 'Teaching Assistant & Lab Demonstrator',
     company: 'FAST NUCES Islamabad',
-    duration: 'January 2025 – Present',
+    duration: 'January 2025 – June 2026',
     type: 'Academic',
     color: '#3B82F6',
     responsibilities: [
@@ -279,7 +279,7 @@ export const education = {
   university: 'National University of Computer and Emerging Sciences (FAST NUCES)',
   location: 'Islamabad, Pakistan',
   duration: '2022 – 2026',
-  cgpa: '3.37 / 4.00',
+  cgpa: '3.42 / 4.00',
   highlights: [
     "Dean's List of Honors – 6th & 7th Semester",
     'Silver Medal – Outstanding Academic Performance (7th Semester)',
