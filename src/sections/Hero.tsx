@@ -241,7 +241,7 @@ export default function Hero() {
           {[
             { value: '5+', label: 'QA Projects' },
             { value: '47+', label: 'Test Cases' },
-            { value: '3.37', label: 'CGPA' },
+            { value: '3.42', label: 'CGPA' },
             { value: 'AWS', label: 'Certified' },
           ].map((stat) => (
             <div key={stat.label} className="text-center">
