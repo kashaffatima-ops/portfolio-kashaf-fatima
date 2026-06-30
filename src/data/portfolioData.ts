@@ -300,7 +300,7 @@ export const certifications = [
   {
     title: "Dean's List of Honors",
     issuer: 'FAST NUCES Islamabad',
-    year: '6th & 7th Semester',
+    year: '6th, 7th & 8th Semester',
     color: '#60A5FA',
     icon: 'honor',
     badge: 'DEAN',
